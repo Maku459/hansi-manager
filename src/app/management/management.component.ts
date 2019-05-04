@@ -12,7 +12,7 @@ export class ManagementComponent implements OnInit {
     name: '紫薇',
     type: '柔',
     rarity: 5,
-    easy: '瑠璃剣穂.jpg',
+    easy: '瑠璃剣穂',
     order: '8'
   };
 
