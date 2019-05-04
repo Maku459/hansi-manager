@@ -1,0 +1,17 @@
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.header {
+  width: 100vw;
+  top: 0px;
+  padding: 10px;
+}
+
+.header h2 {
+  margin: 0px;
+}
+
+.body {
+  padding: 8px;
+}
