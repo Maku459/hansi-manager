@@ -13,6 +13,8 @@ export class ManagementComponent implements OnInit {
     type: '柔',
     rarity: 5,
     easy: '瑠璃剣穂',
+    normal: '龍紋香墨',
+    hard: '玄黄刀綾',
     order: '8'
   };
 

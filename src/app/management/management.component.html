@@ -1,11 +1,42 @@
 <div class="character">
-  <h2 class="character__name">{{character.name}}</h2>
-  <span>rarity: </span>{{character.rarity}}
+  <span class="character__name">{{character.name}}</span>
+  <img class="character__rarity" src="../assets/img/flower/{{character.rarity}}.png" alt="{{character.rarity}}">
   <div class="hansi">
     <div class="order">{{character.order}}<span>句目</span></div>
     <div class="material">
       <img class="material__img" src="../assets/img/easy/{{character.easy}}.jpg" width="40px" alt="{{character.easy}}">
       <span class="material__quantity">180 / 40</span>
+      <div class="material__buttonsection">
+        <button type="button" class="material__button">+</button>
+        <button type="button" class="material__button">-</button>
+      </div>
+    </div>
+    <div class="material">
+      <img class="material__img" src="../assets/img/normal/{{character.normal}}.jpg" width="40px" alt="{{character.normal}}">
+      <span class="material__quantity">38 / 20</span>
+      <div class="material__buttonsection">
+        <button type="button" class="material__button">+</button>
+        <button type="button" class="material__button">-</button>
+      </div>
+    </div>
+    <div class="material">
+      <img class="material__img" src="../assets/img/hard/{{character.hard}}.jpg" width="40px" alt="{{character.hard}}">
+      <span class="material__quantity material__quantity_red">0 / 15</span>
+      <div class="material__buttonsection">
+        <button type="button" class="material__button">+</button>
+        <button type="button" class="material__button">-</button>
+      </div>
+    </div>
+    <div class="material">
+      <img class="material__img" src="../assets/img/type/{{character.type}}.jpg" width="40px" alt="{{character.hard}}">
+      <span class="material__quantity">15 / 15</span>
+      <div class="material__buttonsection">
+        <button type="button" class="material__button">+</button>
+        <button type="button" class="material__button">-</button>
+      </div>
+    </div>
+    <div class="satori">
+      <button type="button" class="satori__button">悟る</button>
     </div>
   </div>
 </div>
