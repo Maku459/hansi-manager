@@ -1,4 +1,4 @@
-<div class="character">
+<li *ngFor="let character of characters" class="character">
   <span class="character__name">{{character.name}}</span>
   <img class="character__rarity" src="../assets/img/flower/{{character.rarity}}.png" alt="{{character.rarity}}">
   <div class="hansi">
@@ -39,4 +39,4 @@
       <button type="button" class="satori__button">悟る</button>
     </div>
   </div>
-</div>
+</li>

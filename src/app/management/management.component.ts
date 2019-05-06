@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Character } from '../character';
+import { CHARACTERS } from '../mock-characters';
 
 @Component({
   selector: 'app-management',
@@ -7,16 +8,7 @@ import { Character } from '../character';
   styleUrls: ['./management.component.scss']
 })
 export class ManagementComponent implements OnInit {
-  character: Character = {
-    id: 1,
-    name: '紫薇',
-    type: '柔',
-    rarity: 5,
-    easy: '瑠璃剣穂',
-    normal: '龍紋香墨',
-    hard: '玄黄刀綾',
-    order: '8'
-  };
+  characters = CHARACTERS;
 
   constructor() { }
 

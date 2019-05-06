@@ -5,6 +5,8 @@
   border-radius: 15px;
   padding: 10px;
   padding-top: 5px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .character__name {
